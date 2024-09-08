@@ -1,39 +1,31 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Paginator
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+[![Pub Version](https://img.shields.io/pub/v/paginator)](https://pub.dev/packages/paginator)
+[![License](https://img.shields.io/badge/license-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+**Paginator** is a Flutter package designed to simplify pagination in your app. Whether you're working with large datasets or need smooth pagination functionality, Paginator provides built-in utilities to fetch, paginate, and display data efficiently.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add package to pubspec.yaml.
+
+```dart
+paginator: ^0.0.1
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+Import the package.
 
 ```dart
-const like = 'sample';
+import 'package:paginator/paginator.dart'
 ```
 
-## Additional information
+Visit the [Example](https://pub.dev/packages/paginator/example) tab on the pub.dev package page to view full usage examples and detailed documentation.
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+## Demo
+
+<video width="400" height="500" controls>
+  <source src="screenshots/demo_video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>

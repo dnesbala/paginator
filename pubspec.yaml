@@ -1,10 +1,10 @@
 name: paginator
-description: "A new Flutter package project."
+description: "Pagination solution for any kind of list"
 version: 0.0.1
-homepage:
+homepage: https://github.com/dnesbala/paginator
 
 environment:
-  sdk: '>=3.4.4 <4.0.0'
+  sdk: ">=3.4.4 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
