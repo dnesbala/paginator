@@ -10,9 +10,8 @@ class Pagination<T> {
 
   Future<PaginationResponse<T>> performPagination({
     required Future<Either<Failure, PaginationModel<T>>> Function({
-      required int dataLimit,
-      required int page,
-      Map<String, String>? queryParams,
+      int? dataLimit,
+      int? page,
     }) getFunction,
     required int fetchLimit,
     bool freshStart = false,
